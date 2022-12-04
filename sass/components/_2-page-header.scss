@@ -40,7 +40,7 @@
     margin-right: 50px;
     }
 }
-.nav-list__item__links {
+.nav-list__links {
     padding-top: 32px;
     padding-bottom: 32px;
     text-decoration: none;
@@ -60,7 +60,7 @@
         margin-right: 50px;
     }
 }
-.header-contacts__item__links {
+.header-contacts__links {
     display: flex;
     align-items: center;
     padding-top: 32px;
@@ -73,8 +73,8 @@
     &:focus {
         color: $hover-color;
     }
-    &__text {
+}
+.header-contacts__text {
     margin: 0;
     margin-left: 10px;
-    }
 }
