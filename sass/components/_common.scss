@@ -55,3 +55,30 @@
     clip-path: inset(50%);
     margin: -1px;
 }
+
+// *ЗАГОЛОВКИ СЕКЦІЙ
+.section-header {
+    margin: 0;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 36px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+}
+
+// * IMG ЗОБРАЖЕННЯ 
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+// *ЗАКЛИК (У ФУТЕРІ)
+.appeal {
+    display: block;
+    margin-bottom: 20px;
+    font-size: 14px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: $third-text-color;
+}
